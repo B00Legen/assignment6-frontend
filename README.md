@@ -6,5 +6,10 @@ Sixth assignment for the `Web Technologies 1` course
 ![Task 0, JS](images/task0-1.png)
 ![Task 0, Website](images/task0-2.png)
 I used `jQuery` to show console log message when document is fully loaded in the page.
+## Task 1 (Selectors & CSS)
+![Task 1, Light](images/task1-1.png)
+![Task 1, Dark](images/task1-2.png)
+![Task 1, JS](images/task1-3.png)
+Used `jQuery` to select different elements and change their value.
 ## Summary
 (todo)
