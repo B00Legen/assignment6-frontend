@@ -2,6 +2,7 @@ $(document).ready(function() {
 	console.log("jQuery is ready!");
 	$("body").css("background-color", "#ECFFDC");
 });
+
 let header_default = "#90EE90";
 let header_enter = "#50C878";
 $("#header").mouseenter(function() {
@@ -10,12 +11,15 @@ $("#header").mouseenter(function() {
 $("#header").mouseleave(function() {
 	$("#header").css("background-color", header_default);
 });
+
 $("p").ready(function() {
 	$("p").css("background-color", "#8AFF8A");
 });
+
 $(".container").click(function() {
-	$(".container h3").text("Portfolio")
+	$(".container h3:first").text("Portfolio")
 });
+
 let dark = false;
 $("#theme").click(function() {
 	dark = (dark ? false : true);
@@ -25,4 +29,14 @@ $("#theme").click(function() {
 	header_default = (dark ? "#008000" : "#90EE90");
 	header_enter = (dark ? "#00A300" : "#50C878");
 	$("#header").css("background-color", header_default);
+});
+
+$("#hider").click(function() {
+	$("#about-me").hide();
+});
+$("#shower").click(function() {
+	$("#about-me").show();
+});
+$("#toggler").click(function() {
+	$("#about-me").toggle();
 });

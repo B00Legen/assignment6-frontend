@@ -11,5 +11,10 @@ I used `jQuery` to show console log message when document is fully loaded in the
 ![Task 1, Dark](images/task1-2.png)
 ![Task 1, JS](images/task1-3.png)
 Used `jQuery` to select different elements and change their value.
+## Task 2 (Visibility Methods)
+![Task 2, Shown](images/task2-1.png)
+![Task 2, Hidden](images/task2-2.png)
+![Task 2, JS](images/task2-3.png)
+Used `jQuery` to change visibility with buttons.
 ## Summary
 (todo)
