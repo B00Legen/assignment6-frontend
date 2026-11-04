@@ -40,3 +40,20 @@ $("#shower").click(function() {
 $("#toggler").click(function() {
 	$("#about-me").fadeToggle("slow", "swing");
 });
+
+$("#my-music").click(function() {
+	$("#my-music").siblings().each(function(index, element) {
+		$(element).slideToggle();
+	});
+});
+$("#my-movie").click(function() {
+	$("#my-movie").siblings().each(function(index, element) {
+		$(element).slideToggle();
+	});
+});
+$("#my-subject").click(function() {
+	$("#my-subject").siblings().each(function(index, element) {
+		$(element).slideToggle();
+	});
+});
+

@@ -15,7 +15,7 @@
 	</head>
 
 	<body>
-		<div id="header" style="background-color: #90EE90; padding: 10px;">
+		<div id="header" class="p-2" style="background-color: #90EE90;">
 			<h1 class="text-center">Mukhammedali Bolegen</h1>
 			<p class="text-center">AITU student</p>
 			<p class="text-center">I enjoy reading various media.</p>
@@ -23,8 +23,8 @@
 		<div class="container">
 			<h3>Welcome to my Portfolio</h3>
 			<hr>
-			<p>
-			I'm a 2nd year student, who's proficent in 3 languages.
+			<p style="width:390px;">
+			I'm a 2nd year student, who's proficent in 3 languages.<br>
 			I study in Software Engineering School in AITU.
 			</p>
 			<button id="theme">Change Theme</button>
@@ -32,9 +32,9 @@
 			<div id="about-me">
 				<img src="images/game.png" width=40%>
 				<img src="images/cover.png" width=15%>
-				<p>
-				I went to the boys-only highschool before university.
-				Currently learning JS and jQuery!
+				<p style="width:400px;">
+				I went to the boys-only highschool before university.<br>
+				Currently learning JS and jQuery!<br>
 				My hobbies are: reading webnovels and making games.
 				</p>
 			</div>
@@ -42,6 +42,30 @@
 				<button id="hider">Hide</button>
 				<button id="shower">Show</button>
 				<button id="toggler">Toggle</button>
+			</div>
+			<div class="d-flex justify-content-around m-4 gap-5"> <!-- clickable sliders-->
+				<div>
+					<button id="my-music">My Favourite Music</button>
+					<p>
+					I love Video Game Soundtrack.<br>
+					One of which is Leviathan.
+					</p>
+					<audio id="myAudio" src="audio/leviathan.mp3" controls></audio>
+				</div>
+				<div>
+					<button id="my-movie">My Favourite Movie</button>
+					<p>
+					I love early Spider-Man movies.
+					</p>
+					<img src="images/spider-man1.jfif" width=30%>
+				</div>
+				<div>
+					<button id="my-subject">My Favourite Subject</button>
+					<p>
+					Since middle school I was highly interested in computers and games.<br>
+					That's why I love programming and chose Software Engineering.
+					</p>
+				</div>
 			</div>
 		</div>
 	</body>

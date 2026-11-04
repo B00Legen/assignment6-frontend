@@ -20,5 +20,9 @@ Used `jQuery` to change visibility with buttons.
 ![Task 3, Shown](images/task3-1.png)
 ![Task 3, Fading](images/task3-2.png)
 Used `fadeIn`, `fadeOut` and `fadeToggle`.
+## Task 4 (Slide Methods)
+![Task 4, Hidden](images/task4-1.png)
+![Task 4, Shown](images/task4-2.png)
+Used `slideToggle` to show/hide with a slide animation.
 ## Summary
 (todo)
