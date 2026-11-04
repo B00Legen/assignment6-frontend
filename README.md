@@ -16,5 +16,9 @@ Used `jQuery` to select different elements and change their value.
 ![Task 2, Hidden](images/task2-2.png)
 ![Task 2, JS](images/task2-3.png)
 Used `jQuery` to change visibility with buttons.
+## Task 3 (Fade Methods)
+![Task 3, Shown](images/task3-1.png)
+![Task 3, Fading](images/task3-2.png)
+Used `fadeIn`, `fadeOut` and `fadeToggle`.
 ## Summary
 (todo)

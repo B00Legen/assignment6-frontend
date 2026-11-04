@@ -32,11 +32,11 @@ $("#theme").click(function() {
 });
 
 $("#hider").click(function() {
-	$("#about-me").hide();
+	$("#about-me").fadeIn("slow", "swing");
 });
 $("#shower").click(function() {
-	$("#about-me").show();
+	$("#about-me").fadeOut("slow", "swing");
 });
 $("#toggler").click(function() {
-	$("#about-me").toggle();
+	$("#about-me").fadeToggle("slow", "swing");
 });
