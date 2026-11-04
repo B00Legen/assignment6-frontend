@@ -16,7 +16,7 @@ $("p").ready(function() {
 	$("p").css("background-color", "#8AFF8A");
 });
 
-$(".container").click(function() {
+$(".container").mouseenter(function() {
 	$(".container h3:first").text("Portfolio")
 });
 
@@ -32,10 +32,10 @@ $("#theme").click(function() {
 });
 
 $("#hider").click(function() {
-	$("#about-me").fadeIn("slow", "swing");
+	$("#about-me").fadeOut("slow", "swing");
 });
 $("#shower").click(function() {
-	$("#about-me").fadeOut("slow", "swing");
+	$("#about-me").fadeIn("slow", "swing");
 });
 $("#toggler").click(function() {
 	$("#about-me").fadeToggle("slow", "swing");
