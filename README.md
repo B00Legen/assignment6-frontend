@@ -24,5 +24,9 @@ Used `fadeIn`, `fadeOut` and `fadeToggle`.
 ![Task 4, Hidden](images/task4-1.png)
 ![Task 4, Shown](images/task4-2.png)
 Used `slideToggle` to show/hide with a slide animation.
+## Task 5 (Add & Remove Elements)
+![Task 5, Before](images/task5-1.png)
+![Task 5, After](images/task5-2.png)
+Used `jQuery` click listeners to add interactive list.
 ## Summary
 (todo)

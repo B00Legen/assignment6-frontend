@@ -21,12 +21,14 @@
 			<p class="text-center">I enjoy reading various media.</p>
 		</div>
 		<div class="container">
-			<h3>Welcome to my Portfolio</h3>
-			<hr>
-			<p style="width:390px;">
-			I'm a 2nd year student, who's proficent in 3 languages.<br>
-			I study in Software Engineering School in AITU.
-			</p>
+			<div>
+				<h3>Welcome to my Portfolio</h3>
+				<hr>
+				<p style="width:390px;">
+				I'm a 2nd year student, who's proficent in 3 languages.<br>
+				I study in Software Engineering School in AITU.
+				</p>
+			</div>
 			<button id="theme">Change Theme</button>
 			<h3>About me</h3>
 			<div id="about-me">
@@ -44,28 +46,43 @@
 				<button id="toggler">Toggle</button>
 			</div>
 			<div class="d-flex justify-content-around m-4 gap-5"> <!-- clickable sliders-->
-				<div>
+				<div class="text-center">
 					<button id="my-music">My Favourite Music</button>
 					<p>
 					I love Video Game Soundtrack.<br>
-					One of which is Leviathan.
+					One of which is Leviathan by Studio EIM.
 					</p>
 					<audio id="myAudio" src="audio/leviathan.mp3" controls></audio>
 				</div>
-				<div>
+				<div class="text-center">
 					<button id="my-movie">My Favourite Movie</button>
 					<p>
 					I love early Spider-Man movies.
 					</p>
 					<img src="images/spider-man1.jfif" width=30%>
 				</div>
-				<div>
+				<div class="text-center">
 					<button id="my-subject">My Favourite Subject</button>
 					<p>
 					Since middle school I was highly interested in computers and games.<br>
 					That's why I love programming and chose Software Engineering.
 					</p>
 				</div>
+			</div>
+			<div>
+				<h4>Skills</h4>
+				<ul id="skills">
+					<li>Programming</li>
+					<li>English</li>
+					<li>Reading</li>
+					<li>Chess</li>
+				</ul>
+				<form>
+					<input type="text" name="new-skill" placeholder="Enter Skill...">
+				</form>
+				<button id="append-skill">Add Skill</button>
+				<button id="prepend-skill">Prepend Skill</button>
+				<button id="remove-skill">Remove Skill</button>
 			</div>
 		</div>
 	</body>
