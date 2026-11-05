@@ -35,5 +35,8 @@ Used `jQuery` click listeners to modify attribute of a link.
 ## Task 7 (Form Interaction)
 ![Task 7, Website](images/task7.png)
 Used `jQuery` on change listener to modify text with value from input.
+## Task 8 (Basic Animation)
+![Task 8, Website](images/task8.png)
+Used `jQuery` animate to smoothly increase width of an element.
 ## Summary
-(todo)
+In this assignment I learned a lot about how to use jQuery and how helpful it is. I feel like I understand how many websites are made now.

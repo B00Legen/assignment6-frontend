@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+		href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+		rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<title>Task 8</title>
+		<style>
+			#header p {
+				margin: 0px;
+				font-size: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<button class="m-4" id="theme">Change Theme</button>
+		<div class="mx-4">
+			<h4>Skills</h4>
+			<ul id="skills">
+				<li data-level='4'>Programming<p></p></li>
+				<li data-level='3'>English<p></p></li>
+				<li data-level='5'>Reading<p></p></li>
+				<li data-level='1'>Chess<p></p></li>
+			</ul>
+			<form>
+				<input type="text" name="new-skill" placeholder="Enter Skill...">
+				<input class="col-1" type="number" name="skill-level" value="1" min="1" max="5">
+			</form>
+			<button id="append-skill">Add Skill</button>
+			<button id="prepend-skill">Prepend Skill</button>
+			<button id="remove-skill">Remove Skill</button>
+			<button id="animator" class="btn btn-primary mx-0 my-2">Animate!</button>
+		</div>
+	</body>
+
+	<script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+	<script src="js/main.js"></script>
+</html>

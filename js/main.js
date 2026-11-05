@@ -72,14 +72,24 @@ $("#append-skill").click(function() {
 	let new_skill = $("input[name='new-skill']").val();
 	
 	if (new_skill !== "") {
-		$("#skills").append("<li>" + new_skill + "</li>");
+		if ($("title").text() == "Task 8") {
+			let skill_level = $("input[name='skill-level']").val();
+			$("#skills").append("<li data-level='" + skill_level + "'>" + new_skill + "<p></p></li>");
+		} else {
+			$("#skills").append("<li>" + new_skill + "</li>");
+		}
 	}
 });
 $("#prepend-skill").click(function() {
 	let new_skill = $("input[name='new-skill']").val();
 	
 	if (new_skill !== "") {
-		$("#skills").prepend("<li>" + new_skill + "</li>");
+		if ($("title").text() == "Task 8") {
+			let skill_level = $("input[name='skill-level']").val();
+			$("#skills").prepend("<li data-level='" + skill_level + "'>" + new_skill + "<p></p></li>");
+		} else {
+			$("#skills").prepend("<li>" + new_skill + "</li>");
+		}
 	}
 });
 $("#remove-skill").click(function() {
@@ -100,4 +110,22 @@ $("#link-change").click(function() {
 $("form").eq(1).on("change", function() {
 	$("#name").text("Name: " + $("#name-input").val());
 	$("#email").text("Email: " + $("#email-input").val());
+});
+
+$("li").each(function(index, element) {
+	$("li p").eq(index).width(0);
+});
+
+let is_animated = false;
+$("#animator").click(function() {
+	$("li").each(function(index, element) {
+		let skill_val = element.dataset.level;
+		if (is_animated) {
+			$("li p").eq(index).animate({width: "0px"});
+		} else {
+			$("li p").eq(index).css("background", "yellow").css("height", "20px").animate({width: (skill_val * 100) + "px"});
+		}
+	});
+	
+	is_animated = !is_animated;
 });
