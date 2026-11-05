@@ -28,5 +28,9 @@ Used `slideToggle` to show/hide with a slide animation.
 ![Task 5, Before](images/task5-1.png)
 ![Task 5, After](images/task5-2.png)
 Used `jQuery` click listeners to add interactive list.
+## Task 6 (Modifying Attributes)
+![Task 6, Before](images/task6-1.png)
+![Task 6, After](images/task6-2.png)
+Used `jQuery` click listeners to modify attribute of a link.
 ## Summary
 (todo)

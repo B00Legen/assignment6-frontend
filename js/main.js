@@ -85,3 +85,14 @@ $("#prepend-skill").click(function() {
 $("#remove-skill").click(function() {
 	$("#skills li").last().remove();
 });
+
+$("#link-change").click(function() {
+	let link = $("a:first");
+	if (link.text() === "Github.com") {
+		link.attr("href", "https://www.chess.com/member/b00legen");
+		link.text("Chess.com");
+	} else {
+		link.attr("href", "https://github.com/B00Legen");
+		link.text("Github.com");
+	}
+});
