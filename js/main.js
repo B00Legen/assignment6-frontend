@@ -96,3 +96,8 @@ $("#link-change").click(function() {
 		link.text("Github.com");
 	}
 });
+
+$("form").eq(1).on("change", function() {
+	$("#name").text("Name: " + $("#name-input").val());
+	$("#email").text("Email: " + $("#email-input").val());
+});

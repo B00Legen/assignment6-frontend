@@ -32,5 +32,8 @@ Used `jQuery` click listeners to add interactive list.
 ![Task 6, Before](images/task6-1.png)
 ![Task 6, After](images/task6-2.png)
 Used `jQuery` click listeners to modify attribute of a link.
+## Task 7 (Form Interaction)
+![Task 7, Website](images/task7.png)
+Used `jQuery` on change listener to modify text with value from input.
 ## Summary
 (todo)
